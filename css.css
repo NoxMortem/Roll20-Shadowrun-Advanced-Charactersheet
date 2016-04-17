@@ -4,7 +4,7 @@
 div.sheet-wrapper{
     margin-left: -25px !important;
     margin-top: -25px !important;
-	width: 108% !important;
+    width: 108% !important;
 }
 
 .sheet-wrapper input {
@@ -110,7 +110,7 @@ input.sheet-tab{
     float: left;
 }
 
-input.sheet-tab + span::before{
+input.sheet-tab + span span::before{
     content: attr(title);
     text-align: center;
     display: inline-block;
@@ -125,7 +125,7 @@ input.sheet-tab + span::before{
 	border-bottom:2px solid black;
 }
 
-input.sheet-tab:checked + span::before{
+input.sheet-tab:checked + span span::before{
 	color:darkred;
 	border-top:2px solid darkred;
 	border-bottom:2px solid darkred;

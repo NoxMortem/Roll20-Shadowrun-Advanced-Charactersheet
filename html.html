@@ -1,5 +1,5 @@
 <div class="wrapper">  
-	<!--<input name="attr_fixme" type="text" value=""/>
+    <!--<input name="attr_fixme" type="text" value=""/>
 	<button name="roll_fixme" type="roll" value="!shadowrun --character @{character_id} --action fix-repeating --name @{fixme}">Roll</button>-->
 
 	<input class="hidden settings-show-matrix" type="checkbox" name="attr_settings_show_matrix" checked="checked" />
@@ -20,21 +20,21 @@
 	
 	<!--  First Menu Row -->
 	<input class="tab tab-basis" type="radio" name="attr_tabs" value="0" checked="checked" />
-	<span class="tab" title="Charakter" ></span>
+	<span class="tab" data-i18n="main-tab-character"><span title="Charakter"></span></span>
 	<input class="tab tab-skills" type="radio" name="attr_tabs" value="1"/>
-	<span class="tab" title="Fertigkeiten" ></span>
+	<span class="tab" data-i18n="main-tab-skills"><span title="Fertigkeiten"></span></span>
 	<input class="tab tab-combat" type="radio" name="attr_tabs" value="2"/>	
-	<span class="tab" title="Kampf" ></span>
+	<span class="tab" data-i18n="main-tab-combat"><span title="Kampf"></span></span>
 	<input class="tab tab-magic" type="radio" name="attr_tabs" value="3"/>
-	<span class="tab" title="Magie" ></span>
+	<span class="tab" data-i18n="main-tab-magic"><span title="Magie"></span></span>
 	<input class="tab tab-matrix" type="radio" name="attr_tabs" value="4"/>
-	<span class="tab" title="Matrix" ></span>
+	<span class="tab" data-i18n="main-tab-matrix"><span title="Matrix"></span></span>
 	<input class="tab tab-technomancer" type="radio" name="attr_tabs" value="5"/>
-	<span class="tab" title="Technomancer" ></span>
+	<span class="tab" data-i18n="main-tab-technomancer"><span title="Technomancer"></span></span>
 	<input class="tab tab-social" type="radio" name="attr_tabs" value="6"/>
-	<span class="tab" title="Sozial" ></span>
+	<span class="tab" data-i18n="main-tab-social"><span title="Sozial"></span></span>
 	<input class="tab tab-equipment" type="radio" name="attr_tabs" value="7"/>
-	<span class="tab" title="Ausrüstung" ></span>
+	<span class="tab" data-i18n="main-tab-equipment"><span title="Ausrüstung"></span></span>
 	
 	<!-- Charactersheet Menu -->	
 	<input class="sheet-type sheet-type-sc" type="radio" name="attr_sheet_type" value="SC" checked="checked"/>
@@ -54,38 +54,38 @@
 	
 	<!-- Submenu: Basis -->
 	<input class="tab tab-sub tab-sub-menu tab-sub-basis tab-character" type="radio" name="attr_menu_basis" value="0" checked />
-	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-character" title="Charakter" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-character" data-i18n="tab-character-character"><span title="Charakter"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-basis tab-attributes" type="radio" name="attr_menu_basis" value="1"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-attributes" title="Attribute" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-attributes" data-i18n="tab-character-attributes"><span title="Attribute"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-basis tab-qualities" type="radio" name="attr_menu_basis" value="2"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-qualities" title="Vor/Nachteile" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-qualities" data-i18n="tab-character-qualities"><span title="Vorteile/Nachteile"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-basis tab-description" type="radio" name="attr_menu_basis" value="3"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-description" title="Beschreibung" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-description" data-i18n="tab-character-description"><span title="Beschreibung"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-basis tab-advancement" type="radio" name="attr_menu_basis" value="4"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-advancement" title="Entwicklung" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-advancement" data-i18n="tab-character-advancement"><span title="Entwicklung"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-basis tab-settings" type="radio" name="attr_menu_basis" value="5"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-settings" title="Einstellungen" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-basis tab-settings" data-i18n="tab-character-settings"><span title="Einstellungen"></span></span>
 	
 	<!-- Submenu: Skills -->
 	<input class="tab tab-sub tab-sub-menu tab-sub-skills tab-actionskills" type="radio" name="attr_menu_skills" value="0" checked />
-	<span  class="tab tab-sub tab-sub-menu tab-sub-skills tab-actionskills" title="Aktion" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-skills tab-actionskills" data-i18n="tab-skills-actionskills"><span title="Aktionsfertigkeiten"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-skills tab-knowledgeskills" type="radio" name="attr_menu_skills" value="1"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-skills tab-knowledgeskills" title="Wissen" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-skills tab-knowledgeskills" data-i18n="tab-skills-knowledgeskills"><span title="Wissensfertigkeiten"></span></span>
 	
 	<!-- Submenu: Magic -->
 	<div class="tab-sub-magic">
 		<input class="tab tab-sub tab-sub-menu tab-sub-magic tab-spellcasting" type="radio" name="attr_menu_magic" value="0" checked />
-		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-spellcasting" title="Spruchzauberei" ></span>
+		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-spellcasting" data-i18n="tab-magic-spellcasting"><span title="Spruchzauberei"></span></span>
 		<input class="tab tab-sub tab-sub-menu tab-sub-magic tab-alchemy" type="radio" name="attr_menu_magic" value="1"/>
-		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-alchemy" title="Alchemie" ></span>
+		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-alchemy" data-i18n="tab-magic-alchemy"><span title="Alchemie"></span></span>
 		<input class="tab tab-sub tab-sub-menu tab-sub-magic tab-summoning" type="radio" name="attr_menu_magic" value="2"/>
-		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-summoning" title="Beschwören" ></span>
+		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-summoning" data-i18n="tab-magic-summoning"><span title="Beschwörung"></span></span>
 		<input class="tab tab-sub tab-sub-menu tab-sub-magic tab-rituals" type="radio" name="attr_menu_magic" value="3"/>
-		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-rituals" title="Rituale" ></span>
+		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-rituals" data-i18n="tab-magic-rituals"><span title="Rituale"></span></span>
 		<input class="tab tab-sub tab-sub-menu tab-sub-magic tab-adeptpowers" type="radio" name="attr_menu_magic" value="4"/>
-		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-adeptpowers" title="Adeptenkräfte" ></span>
+		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-adeptpowers" data-i18n="tab-magic-adeptpowers"><span title="Adeptenkräfte"></span></span>
 		<input class="tab tab-sub tab-sub-menu tab-sub-magic tab-tradition" type="radio" name="attr_menu_magic" value="5"/>
-		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-tradition" title="Tradition" ></span>
+		<span  class="tab tab-sub tab-sub-menu tab-sub-magic tab-tradition" data-i18n="tab-magic-tradition"><span title="Tradition"></span></span>
 		
 		<div class="clear"></div>
 
@@ -581,41 +581,41 @@
 	
 	<!-- Submenu: Matrix -->
 	<input class="tab tab-sub tab-sub-menu tab-sub-matrix tab-matrixequipment" type="radio" name="attr_menu_matrix" value="0" checked />
-	<span  class="tab tab-sub tab-sub-menu tab-sub-matrix tab-matrixequipment" title="Ausrüstung" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-matrix tab-matrixequipment" data-i18n="tab-matrix-equipment"><span title="Ausrüstung"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-matrix tab-programs"        type="radio" name="attr_menu_matrix" value="1"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-matrix tab-programs"        title="Programme" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-matrix tab-programs"        data-i18n="tab-matrix-programs"><span title="Programme"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-matrix tab-matrixactions"   type="radio" name="attr_menu_matrix" value="2"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-matrix tab-matrixactions"   title="Aktionen" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-matrix tab-matrixactions"   data-i18n="tab-matrix-actions"><span title="Aktionen"></span></span>
 	
 	<!-- Submenu: Technomancer -->
 	<input class="tab tab-sub tab-sub-menu tab-sub-technomancer tab-livingpersona" type="radio" name="attr_menu_technomancer" value="0" checked />
-	<span  class="tab tab-sub tab-sub-menu tab-sub-technomancer tab-livingpersona" title="Persona" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-technomancer tab-livingpersona" data-i18n="tab-technomancer-livingpersona"><span title="Lebende Persona"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-technomancer tab-complexforms"  type="radio" name="attr_menu_technomancer" value="1"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-technomancer tab-complexforms"  title="KF" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-technomancer tab-complexforms"  data-i18n="tab-technomancer-complexforms"><span title="KF"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-technomancer tab-sprites"       type="radio" name="attr_menu_technomancer" value="2"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-technomancer tab-sprites"       title="Sprites" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-technomancer tab-sprites"       data-i18n="tab-technomancer-sprites"><span title="Sprites"></span></span>
 	
 	<!-- Submenu: Social -->
 	<input class="tab tab-sub tab-sub-menu tab-sub-social tab-sinlicense"  type="radio" name="attr_menu_social" value="0" checked />
-	<span  class="tab tab-sub tab-sub-menu tab-sub-social tab-sinlicense"  title="SIN/Lizenzen" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-social tab-sinlicense"  data-i18n="tab-social-sinlicense"><span title="SIN/Lizenzen"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-social tab-lifestyles"  type="radio" name="attr_menu_social" value="1"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-social tab-lifestyles"  title="Lebensstile" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-social tab-lifestyles"  data-i18n="tab-social-lifestyles"><span title="Lebensstile"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-social tab-connections" type="radio" name="attr_menu_social" value="2"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-social tab-connections" title="Connections" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-social tab-connections" data-i18n="tab-social-connections"><span title="Connections"></span></span>
 		
 	<!-- Submenu: Equipment -->
 	<input class="tab tab-sub tab-sub-menu tab-sub-equipment tab-equipment-equipment" type="radio" name="attr_menu_equipment" value="0" checked />
-	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-equipment-equipment" title="Ausrüstung" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-equipment-equipment" data-i18n="tab-equipment-equipment"><span title="Ausrüstung"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-equipment tab-augmentations"       type="radio" name="attr_menu_equipment" value="1"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-augmentations"       title="Augmentierung" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-augmentations"       data-i18n="tab-equipment-augmentations"><span title="Augmentierung"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-equipment tab-ammunition"          type="radio" name="attr_menu_equipment" value="2"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-ammunition"          title="Munition" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-ammunition"          data-i18n="tab-equipment-ammunition"><span title="Munition"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-equipment tab-vehicles"            type="radio" name="attr_menu_equipment" value="3"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-vehicles"            title="Fahrzeuge" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-vehicles"            data-i18n="tab-equipment-vehicles"><span title="Fahrzeuge"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-equipment tab-drones"              type="radio" name="attr_menu_equipment" value="4"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-drones"              title="Drohnen" ></span>	
+	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-drones"              data-i18n="tab-equipment-drones"><span title="Drohnen"></span></span>
 	<input class="tab tab-sub tab-sub-menu tab-sub-equipment tab-orders"              type="radio" name="attr_menu_equipment" value="5"/>
-	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-orders"              title="Bestellungen" ></span>
+	<span  class="tab tab-sub tab-sub-menu tab-sub-equipment tab-orders"              data-i18n="tab-equipment-orders"><span title="Bestellungen"></span></span>
 	
 	<div class="clear"></div>	
 				
